@@ -37,8 +37,6 @@ Sistema de análise de vendas para a Meganium - fabricante de consoles portátei
 
 ## 🧩 Estrutura do Projeto
 ```bash
-## 🧩 Estrutura do Projeto
-```bash
 📂 SalesPromptAnalytics/
 ├── 📂 scripts              # Dados brutos das plataformas
       ├── 📄 primeiro.py # Carregamento e inspeção inicial dos dados
@@ -51,7 +49,7 @@ Sistema de análise de vendas para a Meganium - fabricante de consoles portátei
       ├── 📄 oitavo.py   # Ranking de países por receita
 ├── 📂 data              # Dados brutos das plataformas
 └── 📄 chatgpt_prompts.md # Diálogo completo com insights gerados
-
+```
 🛠️ Começando
 Pré-requisitos
 Python 3.10+
@@ -63,7 +61,7 @@ Jupyter Notebook (opcional)
 Instalação
 bash
 Copy
-git clone https://github.com/seu-usuario/Meganium-Sales-Analytics.git
+git clone https://github.com/nikolasdehor/SalesPromptAnalytics
 pip install pandas numpy
 🔑 Principais Insights
 python
