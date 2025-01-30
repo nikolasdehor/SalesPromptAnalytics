@@ -1,3 +1,6 @@
+Aqui está o `README.md` reformulado, com uma estrutura mais profissional e visualmente atraente para um repositório:
+
+```markdown
 # 🚀 Sales Insights Engine | Meganium Sales Analytics
 
 ![Badge](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
@@ -37,8 +40,6 @@ Sistema de análise de vendas para a Meganium - fabricante de consoles portátei
 
 ## 🧩 Estrutura do Projeto
 ```bash
-## 🧩 Estrutura do Projeto
-```bash
 📂 SalesPromptAnalytics/
 ├── 📂 scripts              # Dados brutos das plataformas
       ├── 📄 primeiro.py # Carregamento e inspeção inicial dos dados
@@ -51,46 +52,55 @@ Sistema de análise de vendas para a Meganium - fabricante de consoles portátei
       ├── 📄 oitavo.py   # Ranking de países por receita
 ├── 📂 data              # Dados brutos das plataformas
 └── 📄 chatgpt_prompts.md # Diálogo completo com insights gerados
+```
 
-🛠️ Começando
-Pré-requisitos
-Python 3.10+
+---
 
-Pandas 2.0+
+## 🛠️ Começando
+### Pré-requisitos
+- Python 3.10+
+- Pandas 2.0+
+- Jupyter Notebook (opcional)
 
-Jupyter Notebook (opcional)
-
-Instalação
-bash
-Copy
-git clone https://github.com/seu-usuario/Meganium-Sales-Analytics.git
+### Instalação
+```bash
+git clone https://github.com/nikolasdehor/SalesPromptAnalytics
 pip install pandas numpy
-🔑 Principais Insights
-python
-Copy
+```
+
+---
+
+## 🔑 Principais Insights
+```python
 # Trecho de análise geográfica (quarto.py)
 print(popular_products.query("Country == 'Brasil'"))
-Platform	Country	Most Popular Product	Total Quantity
-Shopee	Brasil	NEW MEGANIUM RG CubeXX	12
-📈 Próximos Passos
-Implementar dashboard interativo com Streamlit
+```
+| Platform   | Country | Most Popular Product       | Total Quantity |
+|------------|---------|----------------------------|----------------|
+| **Shopee** | Brasil  | NEW MEGANIUM RG CubeXX      | 12             |
 
-Adicionar análise de custo-benefício por rota de entrega
+---
 
-Integrar API de conversão de moedas em tempo real
+## 📈 Próximos Passos
+1. Implementar dashboard interativo com Streamlit
+2. Adicionar análise de custo-benefício por rota de entrega
+3. Integrar API de conversão de moedas em tempo real
 
-🤝 Como Contribuir
-Faça um fork do projeto
+---
 
-Crie sua branch: git checkout -b feature/nova-analise
+## 🤝 Como Contribuir
+1. Faça um fork do projeto
+2. Crie sua branch: `git checkout -b feature/nova-analise`
+3. Commit suas mudanças: `git commit -m 'Add new feature'`
+4. Push para a branch: `git push origin feature/nova-analise`
+5. Abra um Pull Request
 
-Commit suas mudanças: git commit -m 'Add new feature'
+---
 
-Push para a branch: git push origin feature/nova-analise
+## 📄 Licença
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-Abra um Pull Request
+[![Meganium Console](https://img.shields.io/badge/🔗-Documentação_Completa-blue)](https://example.com)
+```
 
-📄 Licença
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
-
-Meganium Console
+---
