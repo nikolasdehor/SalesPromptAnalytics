@@ -61,7 +61,7 @@ Jupyter Notebook (opcional)
 Instalação
 bash
 Copy
-git clone https://github.com/seu-usuario/Meganium-Sales-Analytics.git
+git clone https://github.com/nikolasdehor/SalesPromptAnalytics
 pip install pandas numpy
 🔑 Principais Insights
 python
