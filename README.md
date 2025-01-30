@@ -99,5 +99,3 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 [![Meganium Console](https://img.shields.io/badge/🔗-Documentação_Completa-blue)](https://example.com)
 ```
-
----
