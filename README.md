@@ -1,6 +1,3 @@
-Aqui está o `README.md` reformulado, com uma estrutura mais profissional e visualmente atraente para um repositório:
-
-```markdown
 # 🚀 Sales Insights Engine | Meganium Sales Analytics
 
 ![Badge](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
